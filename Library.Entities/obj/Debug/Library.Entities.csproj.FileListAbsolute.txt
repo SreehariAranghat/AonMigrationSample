@@ -1,0 +1,6 @@
+E:\Demo\LibraryManagement\Library.Entities\bin\Debug\Library.Entities.dll
+E:\Demo\LibraryManagement\Library.Entities\bin\Debug\Library.Entities.pdb
+E:\Demo\LibraryManagement\Library.Entities\obj\Debug\Library.Entities.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.Entities\obj\Debug\Library.Entities.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.Entities\obj\Debug\Library.Entities.dll
+E:\Demo\LibraryManagement\Library.Entities\obj\Debug\Library.Entities.pdb

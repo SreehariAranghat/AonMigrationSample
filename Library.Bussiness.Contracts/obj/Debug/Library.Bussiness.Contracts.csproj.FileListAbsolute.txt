@@ -1,0 +1,9 @@
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\bin\Debug\Library.Bussiness.Contracts.dll
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\bin\Debug\Library.Bussiness.Contracts.pdb
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\bin\Debug\Library.Entities.dll
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\bin\Debug\Library.Entities.pdb
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\obj\Debug\Library.Bussiness.Contracts.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\obj\Debug\Library.Bussiness.Contracts.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\obj\Debug\Library.Bussiness.Contracts.csproj.CopyComplete
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\obj\Debug\Library.Bussiness.Contracts.dll
+E:\Demo\LibraryManagement\Library.Bussiness.Contracts\obj\Debug\Library.Bussiness.Contracts.pdb

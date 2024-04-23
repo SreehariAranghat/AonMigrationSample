@@ -1,0 +1,9 @@
+E:\Demo\LibraryManagement\Library.Data.Contracts\bin\Debug\Library.Data.Contracts.dll
+E:\Demo\LibraryManagement\Library.Data.Contracts\bin\Debug\Library.Data.Contracts.pdb
+E:\Demo\LibraryManagement\Library.Data.Contracts\bin\Debug\Library.Entities.dll
+E:\Demo\LibraryManagement\Library.Data.Contracts\bin\Debug\Library.Entities.pdb
+E:\Demo\LibraryManagement\Library.Data.Contracts\obj\Debug\Library.Data.Contracts.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.Data.Contracts\obj\Debug\Library.Data.Contracts.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.Data.Contracts\obj\Debug\Library.Data.Contracts.csproj.CopyComplete
+E:\Demo\LibraryManagement\Library.Data.Contracts\obj\Debug\Library.Data.Contracts.dll
+E:\Demo\LibraryManagement\Library.Data.Contracts\obj\Debug\Library.Data.Contracts.pdb
