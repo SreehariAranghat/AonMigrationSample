@@ -1,0 +1,984 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-04-24T06:25:19.0085004Z",
+  "analysisEndTime": "2024-04-24T06:25:31.937991Z",
+  "stats": {
+    "summary": {
+      "projects": 9,
+      "issues": 9,
+      "incidents": 47,
+      "effort": 47
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 39,
+        "Optional": 4,
+        "Potential": 4,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 18,
+        "Project": 2,
+        "Api": 27
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj",
+      "startingProject": false,
+      "issues": 0,
+      "storyPoints": 0,
+      "ruleInstances": []
+    },
+    {
+      "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+      "startingProject": true,
+      "issues": 9,
+      "storyPoints": 47,
+      "ruleInstances": [
+        {
+          "incidentId": "16e516e0-c9a9-4b97-ae7c-429483a2f62f",
+          "ruleId": "NuGet.0002",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Antlr, 3.5.0.2",
+            "snippet": "Antlr, 3.5.0.2\n\nRecommendation:\n\nAntlr 4.6.6"
+          }
+        },
+        {
+          "incidentId": "d3f989c7-3450-4f35-82c1-1eb5bb26a532",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNet.Mvc, 5.2.9",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.9\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "67bb4021-5508-4a4a-8465-27f8a1d739b4",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNet.Razor, 3.2.9",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.9\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "c9f4c04d-ab7a-446a-8e5b-1e5b8880007b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNet.Web.Optimization, 1.1.3",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found"
+          }
+        },
+        {
+          "incidentId": "3ba546fa-8ca2-41e8-a412-e3d0c76fd51f",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNet.WebPages, 3.2.9",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.9\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "e33bd4d7-9b11-457e-90a0-425204f44f88",
+          "ruleId": "NuGet.0002",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Bcl.AsyncInterfaces, 7.0.0",
+            "snippet": "Microsoft.Bcl.AsyncInterfaces, 7.0.0\n\nRecommendation:\n\nMicrosoft.Bcl.AsyncInterfaces 8.0.0"
+          }
+        },
+        {
+          "incidentId": "9450be88-5bb8-4ec0-8193-b4b6dcb6d989",
+          "ruleId": "NuGet.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.1",
+            "snippet": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.1\n\nRecommendation:\n\nNo supported version found"
+          }
+        },
+        {
+          "incidentId": "0a8e65e5-3264-4805-8cc5-3e68d7a9217f",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Web.Infrastructure, 2.0.1",
+            "snippet": "Microsoft.Web.Infrastructure, 2.0.1\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "2b48b998-cc05-4412-bd01-cc0625beabce",
+          "ruleId": "NuGet.0002",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Newtonsoft.Json, 12.0.2",
+            "snippet": "Newtonsoft.Json, 12.0.2\n\nRecommendation:\n\nNewtonsoft.Json 13.0.3"
+          }
+        },
+        {
+          "incidentId": "de7aa79f-4ade-4492-98a9-7eb1957bb7ba",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Buffers, 4.5.1",
+            "snippet": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "7f311252-88d4-4cc5-a561-d170806592d4",
+          "ruleId": "NuGet.0002",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Diagnostics.DiagnosticSource, 7.0.2",
+            "snippet": "System.Diagnostics.DiagnosticSource, 7.0.2\n\nRecommendation:\n\nSystem.Diagnostics.DiagnosticSource 8.0.1"
+          }
+        },
+        {
+          "incidentId": "cd204e3c-8f6c-420b-ac41-762416da83a6",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Memory, 4.5.5",
+            "snippet": "System.Memory, 4.5.5\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "7a292526-a47c-4e47-8b35-97a8da9d614f",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Numerics.Vectors, 4.5.0",
+            "snippet": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "a3ddcce8-9376-4bc1-a728-ce217588bc76",
+          "ruleId": "NuGet.0003",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Threading.Tasks.Extensions, 4.5.4",
+            "snippet": "System.Threading.Tasks.Extensions, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+          }
+        },
+        {
+          "incidentId": "05f54ff6-faa9-4638-8802-d330e769af4f",
+          "ruleId": "NuGet.0004",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "jQuery, 3.4.1",
+            "snippet": "jQuery, 3.4.1",
+            "links": [
+              {
+                "title": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6",
+                "url": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6"
+              },
+              {
+                "title": "https://github.com/advisories/GHSA-257q-pv89-v3xv",
+                "url": "https://github.com/advisories/GHSA-257q-pv89-v3xv"
+              },
+              {
+                "title": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
+                "url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "e116ff72-2c18-481d-a4bb-72dc75ccbbb7",
+          "ruleId": "NuGet.0004",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "jQuery.Validation, 1.17.0",
+            "snippet": "jQuery.Validation, 1.17.0",
+            "links": [
+              {
+                "title": "https://github.com/advisories/GHSA-jxwx-85vp-gvwm",
+                "url": "https://github.com/advisories/GHSA-jxwx-85vp-gvwm"
+              },
+              {
+                "title": "https://github.com/advisories/GHSA-j9m2-h2pv-wvph",
+                "url": "https://github.com/advisories/GHSA-j9m2-h2pv-wvph"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "71147452-afad-4861-a834-4e9f747c368c",
+          "ruleId": "NuGet.0005",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.jQuery.Unobtrusive.Validation, 3.2.11",
+            "snippet": "Microsoft.jQuery.Unobtrusive.Validation, 3.2.11\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+          }
+        },
+        {
+          "incidentId": "cf764fe5-c3c0-4569-bee9-6590ee2ee344",
+          "ruleId": "NuGet.0004",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Newtonsoft.Json, 12.0.2",
+            "snippet": "Newtonsoft.Json, 12.0.2",
+            "links": [
+              {
+                "title": "https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+                "url": "https://github.com/advisories/GHSA-5crp-9r3c-p9vr"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "a6ff4d3e-bdbd-4deb-8ace-0101124077ab",
+          "ruleId": "Project.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj"
+          }
+        },
+        {
+          "incidentId": "7d3ea323-4845-4e0c-a779-3bcd197ed4ae",
+          "ruleId": "Project.0002",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+            "snippet": "Current: .NETFramework,Version=v4.6.2\nNew: net8.0"
+          }
+        },
+        {
+          "incidentId": "1a28e6e4-387f-40fc-935d-8c06b2d85764",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\LoginController.cs",
+            "snippet": "FormsAuthentication.RedirectFromLoginPage($\u0022{user.Id}|{user.Name}|{user.Email}\u0022, true)\n\nAPI signature M:System.Web.Security.FormsAuthentication.RedirectFromLoginPage(System.String,System.Boolean)",
+            "line": 36,
+            "column": 20,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.security.formsauthentication.redirectfromloginpage"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "3a7d4bdf-8f9b-4d58-bde9-53d0f7e5203e",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "bundles.Add(new ScriptBundle(\u0022~/bundles/jquery\u0022).Include(\r\n                        \u0022~/Scripts/jquery-{version}.js\u0022))\n\nAPI signature M:System.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)",
+            "line": 10,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundlecollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "6a74d040-9a8b-4b31-b095-e6a310115466",
+          "ruleId": "Api.0001",
+          "description": "System.Web.Mvc.AuthorizeAttribute is no longer supported. Use Microsoft.AspNetCore.Authorization.AuthorizeAttribute instead.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Filters\\LibAuthFilter.cs",
+            "snippet": "AuthorizeAttribute\n\nAPI signature T:System.Web.Mvc.AuthorizeAttribute",
+            "line": 20,
+            "column": 33,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.authorizeattribute"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "9e1e8840-412d-402d-883e-f851bcd35c01",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "new ScriptBundle(\u0022~/bundles/jquery\u0022).Include(\r\n                        \u0022~/Scripts/jquery-{version}.js\u0022)\n\nAPI signature M:System.Web.Optimization.Bundle.Include(System.String,System.Web.Optimization.IItemTransform[])",
+            "line": 10,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundle.include"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "715edb4c-8021-4c1d-8bb3-91ece08e3bbe",
+          "ruleId": "Api.0001",
+          "description": "System.Web.Mvc.RouteAttribute is no longer supported. Use Microsoft.AspNetCore.Mvc.RouteAttribute instead.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\LoginController.cs",
+            "snippet": "Route(\u0022/login\u0022)\n\nAPI signature T:System.Web.Mvc.RouteAttribute",
+            "line": 13,
+            "column": 5,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.routeattribute"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "ee655bd3-de72-4588-b8fc-e13cb17ac35a",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "bundles.Add(new Bundle(\u0022~/bundles/bootstrap\u0022).Include(\r\n                      \u0022~/Scripts/bootstrap.js\u0022))\n\nAPI signature M:System.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)",
+            "line": 21,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundlecollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "9d5e34c2-5af0-4d39-85c5-20ea4781cd94",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "bundles.Add(new ScriptBundle(\u0022~/bundles/modernizr\u0022).Include(\r\n                        \u0022~/Scripts/modernizr-*\u0022))\n\nAPI signature M:System.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)",
+            "line": 18,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundlecollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "c6371023-0231-4b70-865a-2afd96266800",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "bundles.Add(new ScriptBundle(\u0022~/bundles/jqueryval\u0022).Include(\r\n                        \u0022~/Scripts/jquery.validate*\u0022))\n\nAPI signature M:System.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)",
+            "line": 13,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundlecollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "2316d46c-b3b6-42b2-ad41-7dbd8759b095",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "new ScriptBundle(\u0022~/bundles/jqueryval\u0022).Include(\r\n                        \u0022~/Scripts/jquery.validate*\u0022)\n\nAPI signature M:System.Web.Optimization.Bundle.Include(System.String,System.Web.Optimization.IItemTransform[])",
+            "line": 13,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundle.include"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "1bf2245e-d718-457d-8e6f-4a8f638f1151",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "new Bundle(\u0022~/bundles/bootstrap\u0022).Include(\r\n                      \u0022~/Scripts/bootstrap.js\u0022)\n\nAPI signature M:System.Web.Optimization.Bundle.Include(System.String,System.Web.Optimization.IItemTransform[])",
+            "line": 21,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundle.include"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "55df9abd-ee77-411e-92b3-1ed43b3aec58",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "new ScriptBundle(\u0022~/bundles/modernizr\u0022).Include(\r\n                        \u0022~/Scripts/modernizr-*\u0022)\n\nAPI signature M:System.Web.Optimization.Bundle.Include(System.String,System.Web.Optimization.IItemTransform[])",
+            "line": 18,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundle.include"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "f4cf3f26-6360-4a8c-b5e8-6e5152da7fbc",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Filters\\LibAuthFilter.cs",
+            "snippet": "Filters.Add(new LibAuthFilter())\n\nAPI signature M:System.Web.Mvc.GlobalFilterCollection.Add(System.Object)",
+            "line": 16,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.globalfiltercollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "0c536263-b319-472d-94a6-ba5f42a23cc7",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "bundles.Add(new StyleBundle(\u0022~/Content/css\u0022).Include(\r\n                      \u0022~/Content/bootstrap.css\u0022,\r\n                      \u0022~/Content/site.css\u0022))\n\nAPI signature M:System.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)",
+            "line": 24,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundlecollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "04ce5554-40f6-4672-8da2-26efd25341d8",
+          "ruleId": "Api.0001",
+          "description": "System.Web.Mvc.Controller is no longer supported. Use Microsoft.AspNetCore.Mvc.Controller instead.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\HomeController.cs",
+            "snippet": "Controller\n\nAPI signature T:System.Web.Mvc.Controller",
+            "line": 14,
+            "column": 34,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "4716f5d1-ca1e-46ac-b0b6-0231a1709d87",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\RouteConfig.cs",
+            "snippet": "routes.IgnoreRoute(\u0022{resource}.axd/{*pathInfo}\u0022)\n\nAPI signature M:System.Web.Mvc.RouteCollectionExtensions.IgnoreRoute(System.Web.Routing.RouteCollection,System.String)",
+            "line": 13,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.routecollectionextensions.ignoreroute"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "941d15ea-a8e4-4926-92ad-5cd560ab5579",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\BundleConfig.cs",
+            "snippet": "new StyleBundle(\u0022~/Content/css\u0022).Include(\r\n                      \u0022~/Content/bootstrap.css\u0022,\r\n                      \u0022~/Content/site.css\u0022)\n\nAPI signature M:System.Web.Optimization.Bundle.Include(System.String[])",
+            "line": 24,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.optimization.bundle.include"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "1de5f18c-4fa6-4e8d-8b65-743175ba806a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.3.2.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Global.asax.cs",
+            "snippet": "HttpApplication\n\nAPI signature T:System.Web.HttpApplication",
+            "line": 10,
+            "column": 45,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.httpapplication"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "6eb5d6cf-3b77-4665-8d60-4ea6cd3555fb",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\RentalController.cs",
+            "snippet": "View()\n\nAPI signature M:System.Web.Mvc.Controller.View",
+            "line": 35,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.view"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "b97a24c9-92bc-4bb0-9389-78c88b9741e3",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Global.asax.cs",
+            "snippet": "AreaRegistration.RegisterAllAreas()\n\nAPI signature M:System.Web.Mvc.AreaRegistration.RegisterAllAreas",
+            "line": 14,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.arearegistration.registerallareas"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "14b97c5c-f36e-4da3-b7da-24c0a71ab39f",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\RouteConfig.cs",
+            "snippet": "routes.MapRoute(\r\n                name: \u0022Default\u0022,\r\n                url: \u0022{controller}/{action}/{id}\u0022,\r\n                defaults: new { controller = \u0022Home\u0022, action = \u0022Index\u0022, id = UrlParameter.Optional }\r\n            )\n\nAPI signature M:System.Web.Mvc.RouteCollectionExtensions.MapRoute(System.Web.Routing.RouteCollection,System.String,System.String,System.Object)",
+            "line": 15,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.routecollectionextensions.maproute"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "d49b42ec-2760-4afe-bd6f-8756219e51ba",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\App_Start\\FilterConfig.cs",
+            "snippet": "filters.Add(new HandleErrorAttribute())\n\nAPI signature M:System.Web.Mvc.GlobalFilterCollection.Add(System.Object)",
+            "line": 9,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.globalfiltercollection.add"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "5ed566fa-19fd-4dde-a5ee-28fe923156d8",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\LoginController.cs",
+            "snippet": "View()\n\nAPI signature M:System.Web.Mvc.Controller.View",
+            "line": 43,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.view"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "ec057ec7-b230-4260-b619-dc86413d8e90",
+          "ruleId": "Api.0001",
+          "description": "System.Web.Mvc.Controller is no longer supported. Use Microsoft.AspNetCore.Mvc.Controller instead.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\LoginController.cs",
+            "snippet": "Controller\n\nAPI signature T:System.Web.Mvc.Controller",
+            "line": 14,
+            "column": 35,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "162aa0b1-a461-4886-b838-a2ae3fe2444b",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\LoginController.cs",
+            "snippet": "View()\n\nAPI signature M:System.Web.Mvc.Controller.View",
+            "line": 24,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.view"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "133b5f80-03c9-414a-8c77-746009bd571e",
+          "ruleId": "Api.0001",
+          "description": "System.Web.Mvc.Controller is no longer supported. Use Microsoft.AspNetCore.Mvc.Controller instead.",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\RentalController.cs",
+            "snippet": "Controller\n\nAPI signature T:System.Web.Mvc.Controller",
+            "line": 14,
+            "column": 36,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "c67f5708-e329-476a-928a-b6d97f0cf674",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\HomeController.cs",
+            "snippet": "View()\n\nAPI signature M:System.Web.Mvc.Controller.View",
+            "line": 27,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.view"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "a1e599b2-61a8-49e2-a48c-b5319402745d",
+          "ruleId": "Api.0001",
+          "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Library.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "E:\\Demo\\LibraryManagement\\Library.WebApp\\Controllers\\HomeController.cs",
+            "snippet": "View()\n\nAPI signature M:System.Web.Mvc.Controller.View",
+            "line": 34,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.controller.view"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530"
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "description": "NuGet package functionality is included with framework refrence.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework refrence",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609"
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529"
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "description": "NuGet package contains secutiry vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known secutity vunerabilities.",
+      "label": "NuGet package contains secutiry vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531"
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "description": "Project file needs to be converted to SDK style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227"
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226"
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to correspinding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227"
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226"
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "description": "API does not exist in the selected version of .NET. See breaking changes documentation for alternative or replacement functionality.",
+      "label": "API does not exist",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679"
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "description": "Some API that lived in older versions of .NET frameworks were moved to standalone NuGet packages that could be added to projects explicitly.",
+      "label": "API available in NuGet package",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679"
+        }
+      ]
+    }
+  }
+}

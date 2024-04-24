@@ -21,6 +21,8 @@ namespace Library.Access
 
         IRentalDataAccess rentalDataAccess = DbContainer.Container.Resolve<IRentalDataAccess>();
 
+
+       
         public List<Book> GetAvailableBooks()
         {
             return dataAccessService.GetBooks();

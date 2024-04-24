@@ -1,0 +1,20 @@
+﻿@model List<Library.Entities.Book>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <h1>Welcome Bacl</h1>
+   @if (Model != null)
+   {
+       <h1>Books</h1>
+       foreach (var book in Model)
+       {
+             <div>
+                 @book.Title - @book.Author | <a href="/rental?id=@book.Id">Rent</a>
+             </div>
+
+       }
+   }
+</main>

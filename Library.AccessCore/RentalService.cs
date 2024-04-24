@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using CommonUtilityCore;
 using Library.Bussiness.Contracts;
 using Library.Data.Container;
 using Library.Data.Contracts;
@@ -21,6 +22,12 @@ namespace Library.Access
 
         IRentalDataAccess rentalDataAccess = DbContainer.Container.Resolve<IRentalDataAccess>();
 
+        /*IContextService service;
+        public RentalService(IContextService context)
+        {
+            this.service = context;
+        }*/
+
         public List<Book> GetAvailableBooks()
         {
             return dataAccessService.GetBooks();
@@ -28,6 +35,7 @@ namespace Library.Access
 
         public RentalRecord RentBook(int bookId,int userId)
         {
+            //int currentUser = service.GetCurrentUser();
             if(rentalDataAccess.HasPendingReturns(userId))
             {
                 throw new Exception("There are still pending books");

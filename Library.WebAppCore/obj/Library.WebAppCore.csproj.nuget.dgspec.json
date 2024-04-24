@@ -1,0 +1,883 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Demo\\LibraryManagement\\Library.WebAppCore\\Library.WebAppCore.csproj": {}
+  },
+  "projects": {
+    "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj",
+        "projectName": "CommonUtilityCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj",
+        "projectName": "Library.AccessCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj",
+        "projectName": "Library.Business.ContainerCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj",
+        "projectName": "Library.Bussiness.ContractsCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj",
+        "projectName": "Library.Data.ContainerCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj",
+        "projectName": "Library.Data.ContractsCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj",
+        "projectName": "Library.DataCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj",
+        "projectName": "Library.EntitiesCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Demo\\LibraryManagement\\Library.WebAppCore\\Library.WebAppCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Demo\\LibraryManagement\\Library.WebAppCore\\Library.WebAppCore.csproj",
+        "projectName": "Library.WebAppCore",
+        "projectPath": "E:\\Demo\\LibraryManagement\\Library.WebAppCore\\Library.WebAppCore.csproj",
+        "packagesPath": "C:\\Users\\SreehariAranghat\\.nuget\\packages\\",
+        "outputPath": "E:\\Demo\\LibraryManagement\\Library.WebAppCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\CommonUtilityCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\Library.AccessCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\Library.Business.ContainerCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\Library.Bussiness.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\Library.Data.ContainerCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\Library.Data.ContractsCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\Library.DataCore.csproj"
+              },
+              "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj": {
+                "projectPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\Library.EntitiesCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

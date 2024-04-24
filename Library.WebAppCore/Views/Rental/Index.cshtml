@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div> 
+        @if(ViewBag.Message != null)
+            {
+                <h1>@ViewBag.Message</h1>
+            }
+else
+            {
+                <div>Unknown Status</div>
+            }
+    </div>
+</body>
+</html>
