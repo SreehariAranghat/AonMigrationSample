@@ -1,0 +1,16 @@
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.Data.ContractsCore.dll.config
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.Data.ContractsCore.deps.json
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.Data.ContractsCore.dll
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.Data.ContractsCore.pdb
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.EntitiesCore.dll
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.EntitiesCore.pdb
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\bin\Debug\net8.0\Library.EntitiesCore.dll.config
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.sourcelink.json
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.csproj.CopyComplete
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.dll
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\refint\Library.Data.ContractsCore.dll
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\Library.Data.ContractsCore.pdb
+E:\Demo\LibraryManagement\Library.Data.ContractsCore\obj\Debug\net8.0\ref\Library.Data.ContractsCore.dll

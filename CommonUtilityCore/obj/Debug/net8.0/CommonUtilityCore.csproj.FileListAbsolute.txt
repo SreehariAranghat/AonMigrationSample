@@ -1,0 +1,12 @@
+E:\Demo\LibraryManagement\CommonUtilityCore\bin\Debug\net8.0\CommonUtilityCore.dll.config
+E:\Demo\LibraryManagement\CommonUtilityCore\bin\Debug\net8.0\CommonUtilityCore.deps.json
+E:\Demo\LibraryManagement\CommonUtilityCore\bin\Debug\net8.0\CommonUtilityCore.dll
+E:\Demo\LibraryManagement\CommonUtilityCore\bin\Debug\net8.0\CommonUtilityCore.pdb
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.sourcelink.json
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.dll
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\refint\CommonUtilityCore.dll
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\CommonUtilityCore.pdb
+E:\Demo\LibraryManagement\CommonUtilityCore\obj\Debug\net8.0\ref\CommonUtilityCore.dll

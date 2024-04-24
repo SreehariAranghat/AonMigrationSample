@@ -1,0 +1,12 @@
+E:\Demo\LibraryManagement\Library.EntitiesCore\bin\Debug\net8.0\Library.EntitiesCore.dll.config
+E:\Demo\LibraryManagement\Library.EntitiesCore\bin\Debug\net8.0\Library.EntitiesCore.deps.json
+E:\Demo\LibraryManagement\Library.EntitiesCore\bin\Debug\net8.0\Library.EntitiesCore.dll
+E:\Demo\LibraryManagement\Library.EntitiesCore\bin\Debug\net8.0\Library.EntitiesCore.pdb
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.sourcelink.json
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.dll
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\refint\Library.EntitiesCore.dll
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\Library.EntitiesCore.pdb
+E:\Demo\LibraryManagement\Library.EntitiesCore\obj\Debug\net8.0\ref\Library.EntitiesCore.dll
