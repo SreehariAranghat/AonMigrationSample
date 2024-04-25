@@ -1,7 +1,3 @@
-E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.csproj.AssemblyReference.cache
-E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.csproj.CoreCompileInputs.cache
-E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.sourcelink.json
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\Library.Data.ContainerCore.dll.config
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\Library.Data.ContainerCore.deps.json
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\Library.Data.ContainerCore.dll
@@ -18,6 +14,10 @@ E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\CommonUtil
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\CommonUtilityCore.dll.config
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\Library.EntitiesCore.pdb
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\bin\Debug\net8.0\Library.EntitiesCore.dll.config
+E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.csproj.AssemblyReference.cache
+E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.csproj.CoreCompileInputs.cache
+E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.sourcelink.json
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.csproj.CopyComplete
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\Library.Data.ContainerCore.dll
 E:\Demo\LibraryManagement\Library.Data.ContainerCore\obj\Debug\net8.0\refint\Library.Data.ContainerCore.dll

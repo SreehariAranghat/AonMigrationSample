@@ -1,17 +1,22 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
   <ItemGroup>
+    <PackageReference Include="jQuery" Version="3.7.1" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.13.2" />
+    <PackageReference Include="JQWidgets" Version="3.6.0" />
+    <PackageReference Include="jQWidgets.AspNetCore.Mvc.TagHelpers" Version="2.0.1" />
+    <PackageReference Include="KendoUICore" Version="2024.1.319" />
+    <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.405" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.4" />
   </ItemGroup>
-	<PropertyGroup>
-		<IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
-	</PropertyGroup>
+  <PropertyGroup>
+    <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonUtilityCore\CommonUtilityCore.csproj" />
     <ProjectReference Include="..\Library.AccessCore\Library.AccessCore.csproj" />
@@ -22,7 +27,6 @@
     <ProjectReference Include="..\Library.DataCore\Library.DataCore.csproj" />
     <ProjectReference Include="..\Library.EntitiesCore\Library.EntitiesCore.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Update="Views\Home\About.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -40,5 +44,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Telerik.UI.for.AspNet.Core.Trial" Version="2024.1.319" />
+  </ItemGroup>
 </Project>

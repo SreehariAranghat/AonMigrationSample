@@ -8,12 +8,17 @@
    @if (Model != null)
    {
        <h1>Books</h1>
-       foreach (var book in Model)
-       {
-             <div>
-                 @book.Title - @book.Author | <a href="/rental?id=@book.Id">Rent</a>
-             </div>
+       <jqx-grid>
+           <jqx-grid-columns>
+               @foreach (var book in Model)
+               {
+                   <div>
+                       @book.Title - @book.Author | <a href="/rental?id=@book.Id">Rent</a>
+                   </div>
 
-       }
+               }
+           </jqx-grid-columns>
+       </jqx-grid>
+       
    }
 </main>

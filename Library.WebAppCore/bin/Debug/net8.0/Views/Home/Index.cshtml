@@ -1,11 +1,14 @@
-﻿@model List<Library.Entities.Book>
+﻿@model List<Book>
 
 @{
     ViewBag.Title = "Home Page";
+
 }
 
 <main>
+     @Html.Kendo().DatePicker().Name("VotingDate");
     <h1>Welcome Bacl</h1>
+    <div id="messagebox"></div>
    @if (Model != null)
    {
        <h1>Books</h1>
@@ -17,4 +20,5 @@
 
        }
    }
+
 </main>

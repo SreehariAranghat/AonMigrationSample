@@ -14,6 +14,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\CommonUtilityCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -22,7 +23,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -107,6 +111,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.AccessCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,7 +120,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -220,6 +228,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.Business.ContainerCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -228,7 +237,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -316,6 +328,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.Bussiness.ContractsCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -324,7 +337,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -415,6 +431,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContainerCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -423,7 +440,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -511,6 +531,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.Data.ContractsCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -519,7 +540,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -604,6 +628,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.DataCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -612,7 +637,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -707,6 +735,7 @@
         "outputPath": "E:\\Demo\\LibraryManagement\\Library.EntitiesCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "E:\\Demo\\LibraryManagement\\Library.Data\\NuGet.Config",
           "C:\\Users\\SreehariAranghat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -715,7 +744,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\": {},
+          "E:\\Telerik\\Telerik UI for ASP.NET Core 2024 Q1\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

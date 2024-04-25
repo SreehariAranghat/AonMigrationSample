@@ -215,3 +215,12 @@ E:\Demo\LibraryManagement\Library.WebApp\bin\System.Memory.xml
 E:\Demo\LibraryManagement\Library.WebApp\bin\System.Numerics.Vectors.xml
 E:\Demo\LibraryManagement\Library.WebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
 E:\Demo\LibraryManagement\Library.WebApp\bin\System.Threading.Tasks.Extensions.xml
+E:\Demo\LibraryManagement\Library.WebApp\bin\LibaryApi.dll
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Web.Http.dll
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Net.Http.Formatting.dll
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Web.Http.WebHost.dll
+E:\Demo\LibraryManagement\Library.WebApp\bin\LibaryApi.pdb
+E:\Demo\LibraryManagement\Library.WebApp\bin\LibaryApi.dll.config
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Web.Http.xml
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Net.Http.Formatting.xml
+E:\Demo\LibraryManagement\Library.WebApp\bin\System.Web.Http.WebHost.xml
